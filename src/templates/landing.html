@@ -1,0 +1,164 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link
+      rel="icon"
+      href="{% static 'images/favicon.png' %}"
+      type="image/png"
+    />
+    <title>Krishi Sahayak - AI for Farmers</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">
+        <img
+          src="{% static 'images/logo.png' %}"
+          alt="Krishi Sahayak Logo"
+          class="logo-img"
+        />
+        Krishi Sahayak
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="nav-btn">Login</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="hero-title">Smart AI-Powered Agriculture Assistant</h1>
+        <p class="hero-sub">
+          Optimize your farm, track inventory, get market insights, and chat
+          with AI for instant guidance.
+        </p>
+        <a href="#" class="hero-btn">Get Started</a>
+      </div>
+      <div class="hero-right">
+        <img
+          class="hero-img"
+          src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png"
+          alt="Farm Illustration"
+        />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <h2 class="section-title">Why Choose Krishi Sahayak?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Inventory Management</h3>
+          <p>
+            Track seeds, fertilizers, pesticides, and stock expiry
+            automatically.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Market Insights</h3>
+          <p>
+            Get updated mandi prices, crop trends, and predictions for your
+            region.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>AI Farming Assistant</h3>
+          <p>Ask any farming question — receive instant AI-powered advice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+      <h2 class="section-title">How It Works</h2>
+      <div class="workflow">
+        <div class="step">
+          <h3>1. Sign Up & Choose Your Crop</h3>
+          <p>Create an account and let us know what crops you’re growing.</p>
+        </div>
+        <div class="step">
+          <h3>2. Track Inventory</h3>
+          <p>
+            Keep your farm resources organized and get notifications for stock
+            expiry.
+          </p>
+        </div>
+        <div class="step">
+          <h3>3. Get AI Assistance</h3>
+          <p>
+            Ask questions and get instant suggestions from our AI farming
+            assistant.
+          </p>
+        </div>
+        <div class="step">
+          <h3>4. Access Market Data</h3>
+          <p>
+            See live mandi prices and plan your harvest and sales efficiently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <h2 class="section-title">What Farmers Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>
+            "Krishi Sahayak helped me reduce fertilizer wastage and increased my
+            yield!"
+          </p>
+          <span>- Ramesh, Punjab</span>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            "The AI assistant answers all my crop-related queries instantly.
+            Amazing!"
+          </p>
+          <span>- Anjali, Maharashtra</span>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            "Market insights feature helped me sell at the best price. Highly
+            recommend."
+          </p>
+          <span>- Vikram, Haryana</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Krishi Sahayak</h2>
+      <p>
+        Krishi Sahayak is a smart agriculture assistant that combines AI, market
+        insights, and inventory management to empower farmers across India. Our
+        mission is to make farming more efficient and profitable.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Krishi Sahayak — Empowering Farmers with AI</p>
+    </footer>
+  </body>
+</html>
