@@ -1,0 +1,30 @@
+venv/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.log
+staticfiles/
+static/
+media/
+media_root/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment Variables
+.en
